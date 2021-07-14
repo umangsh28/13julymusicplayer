@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/Card"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Linear"
+        android:background="@color/black"
+        >
+        <ImageView
+            android:layout_width="123dp"
+            android:layout_height="114dp"
+            android:id="@+id/Img1"
+            android:src="@drawable/maldives_2"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Sname"
+            android:text="Song Name"
+            android:textColor="@color/white"
+            android:layout_marginLeft="3dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/Sdur"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="34dp"
+            android:layout_marginLeft="-54dp"
+            android:text="Song duration"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/play"
+            android:text="Play"
+            android:backgroundTint="@color/purple_200"
+            android:layout_marginTop="85dp"
+            android:layout_marginLeft="-100dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pause"
+            android:id="@+id/pause"
+            android:backgroundTint="#c4c4"
+            android:layout_marginTop="85dp"
+            android:layout_marginLeft="6dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:id="@+id/delete"
+            android:layout_marginTop="83dp"
+            android:layout_marginLeft="3dp"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>
